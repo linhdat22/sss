@@ -29,7 +29,7 @@ const store = createStore({
        },
         async getListCamps(context){
 
-            const url = "http://accestradeapi3.somee.com/api/Camps/GetALL";
+            const url = "https://accestradeapi3.somee.com/api/Camps/GetALL";
             const token = context.getters.getTokenUser
            /* console.log(token)*/
             axios.get(url,{
